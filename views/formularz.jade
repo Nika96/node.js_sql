@@ -1,0 +1,26 @@
+extends layout
+
+block content
+    header
+      #headerCenter
+        h1 Koty rasowe ^._.^
+        nav
+          ul
+            li
+              a(href='/') Strona Główna
+            li
+              a(href='/spis/') Spis kotów
+            li
+              a(a='', href='/formularz/') Dodaj rasę
+    #catForm
+      form(action='/formularz',method='post')
+        label Rasa
+        input(type='text', name='rasa')
+        label Pochodzenie
+        input(type='text', name='pochodzenie')
+        label Waga
+        input(type='text', name='waga')
+        label Umaszczenie
+        input(type='text', name='umaszczenie')
+        input(type='file', onchange='addFile()')
+        input(type='submit', name='dodaj', value='Dodaj')

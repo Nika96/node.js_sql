@@ -1,0 +1,91 @@
+body {
+  padding: 50px;
+  background-color: #ffede1;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Header menu */
+#headerCenter nav ul {
+  list-style: none;
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+}
+
+#headerCenter nav ul li {
+  margin: 5px 100px;
+}
+
+#headerCenter nav ul li a {
+  margin: 5px 10px;
+  padding: 10px; 
+  background: #b80c09;
+  text-decoration: none;
+  color: white;
+  font: 23px bold;
+  font-family: 'Montserrat', sans-serif;
+  white-space: nowrap;
+}
+
+header h1 {
+  font-size: 50px;
+  font-family: 'Amatic SC', cursive;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+/* Cat list */
+#catList {
+  display: flex;
+}
+
+#card {
+  display: flex;
+  background: white;
+  align-items: center;
+  border-radius: 10px;
+}
+
+#card figure img {
+  /* width: 100%; */
+  height: 15vw;
+}
+
+/* Form */
+#catForm {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background: #f4ac45;
+  width: 500px;
+  padding: 20px 50px;
+  border-radius: 10px;
+}
+
+form input {
+  padding: 10px;
+  border: none;
+  border-radius: 7px;
+}
+
+form label {
+  margin: 10px 5px 0;
+  font-size: 20px;
+  font-weight: 500;
+
+}
+
+input[type='submit'] {
+  border: none;
+  border-radius: 7px;
+  color: white;
+  background: #b80c09;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+}

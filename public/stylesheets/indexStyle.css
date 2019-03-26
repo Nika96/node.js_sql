@@ -1,0 +1,42 @@
+body {
+    padding: 50px;
+    background-color: #ffede1;
+    font-family: 'Montserrat', sans-serif;
+}
+  
+#headerCenter nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ #headerCenter nav ul li {
+    text-align: center;
+    width: 300px;
+    height: auto;
+    /* margin: 5px 100px; */
+    /* padding: 30px 80px; */
+    flex: 1 30%;
+    flex-wrap: wrap;
+  }
+  
+  #headerCenter nav ul li a {
+    margin: 5px 10px;
+    padding: 10px; 
+    background: #b80c09;
+    text-decoration: none;
+    color: white;
+    font: 23px bold;
+    font-family: 'Montserrat', sans-serif;
+  
+  } 
+  
+  header h1 {
+    font-size: 50px;
+    font-family: 'Amatic SC', cursive;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 80px;
+  }

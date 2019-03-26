@@ -1,0 +1,28 @@
+extends layout
+block content       
+ header
+   #headerCenter
+     h1 Koty rasowe ^._.^
+     nav
+       ul
+         li
+           a(href='/') Strona Główna
+         li
+           a(href='/spis') Spis kotów
+         li
+           a(href='/formularz') Dodaj rasę
+
+ main
+   #catList
+   each item in dane
+    #card
+       figure
+         img(src= '#{item.sciezka}', alt='cat photo')
+       #info
+         h2.breed Rasa kota: #{item.rasa}
+         h3.origin Pochodzenie: #{item.pochodzenie}
+         h3.weigh Waga: #{item.waga}
+         h3.color Kolor: #{item.kolor}
+         h3.description Opis:
+         p
+           | #{item.opis}
